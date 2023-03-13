@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(33, 33, 33);
+    background-color: rgb(214, 255, 227);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+/* App */
+.app-div {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1% 2%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.371);
+}
+
+/* Title Result*/
+.title {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.result,
+.result-num {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.result-num {
+    margin-left: 10px;
+}
+
+/* textarea */
+#text-input {
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid rgb(156, 185, 164);
+    padding: 0.5% 1%;
+}
+
+#text-input:focus {
+    border: 1px solid #718cb5 !important;
+    outline: none;
+    box-shadow: 0 0 6px rgba(144, 255, 175, 0.535);
+
+}
